@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A881A8A0258DC3B000C84C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881A89F258DC3B000C84C0C /* AppDelegate.swift */; };
+		A881A8A2258DC3B000C84C0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881A8A1258DC3B000C84C0C /* SceneDelegate.swift */; };
+		A881A8A4258DC3B000C84C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881A8A3258DC3B000C84C0C /* ViewController.swift */; };
+		A881A8A7258DC3B000C84C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A881A8A5258DC3B000C84C0C /* Main.storyboard */; };
+		A881A8AA258DC3B000C84C0C /* EpiciosTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A881A8A8258DC3B000C84C0C /* EpiciosTest.xcdatamodeld */; };
+		A881A8AC258DC3B200C84C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A881A8AB258DC3B200C84C0C /* Assets.xcassets */; };
+		A881A8AF258DC3B200C84C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A881A8AD258DC3B200C84C0C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A881A89C258DC3B000C84C0C /* EpiciosTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpiciosTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A881A89F258DC3B000C84C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A881A8A1258DC3B000C84C0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A881A8A3258DC3B000C84C0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A881A8A6258DC3B000C84C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A881A8A9258DC3B000C84C0C /* EpiciosTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EpiciosTest.xcdatamodel; sourceTree = "<group>"; };
+		A881A8AB258DC3B200C84C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A881A8AE258DC3B200C84C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A881A8B0258DC3B200C84C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A881A899258DC3B000C84C0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A881A893258DC3B000C84C0C = {
+			isa = PBXGroup;
+			children = (
+				A881A89E258DC3B000C84C0C /* EpiciosTest */,
+				A881A89D258DC3B000C84C0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A881A89D258DC3B000C84C0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A881A89C258DC3B000C84C0C /* EpiciosTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A881A89E258DC3B000C84C0C /* EpiciosTest */ = {
+			isa = PBXGroup;
+			children = (
+				A881A89F258DC3B000C84C0C /* AppDelegate.swift */,
+				A881A8A1258DC3B000C84C0C /* SceneDelegate.swift */,
+				A881A8A3258DC3B000C84C0C /* ViewController.swift */,
+				A881A8A5258DC3B000C84C0C /* Main.storyboard */,
+				A881A8AB258DC3B200C84C0C /* Assets.xcassets */,
+				A881A8AD258DC3B200C84C0C /* LaunchScreen.storyboard */,
+				A881A8B0258DC3B200C84C0C /* Info.plist */,
+				A881A8A8258DC3B000C84C0C /* EpiciosTest.xcdatamodeld */,
+			);
+			path = EpiciosTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A881A89B258DC3B000C84C0C /* EpiciosTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A881A8B3258DC3B200C84C0C /* Build configuration list for PBXNativeTarget "EpiciosTest" */;
+			buildPhases = (
+				A881A898258DC3B000C84C0C /* Sources */,
+				A881A899258DC3B000C84C0C /* Frameworks */,
+				A881A89A258DC3B000C84C0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpiciosTest;
+			productName = EpiciosTest;
+			productReference = A881A89C258DC3B000C84C0C /* EpiciosTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A881A894258DC3B000C84C0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sourabh Kumbhar";
+				TargetAttributes = {
+					A881A89B258DC3B000C84C0C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A881A897258DC3B000C84C0C /* Build configuration list for PBXProject "EpiciosTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A881A893258DC3B000C84C0C;
+			productRefGroup = A881A89D258DC3B000C84C0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A881A89B258DC3B000C84C0C /* EpiciosTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A881A89A258DC3B000C84C0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A881A8AF258DC3B200C84C0C /* LaunchScreen.storyboard in Resources */,
+				A881A8AC258DC3B200C84C0C /* Assets.xcassets in Resources */,
+				A881A8A7258DC3B000C84C0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A881A898258DC3B000C84C0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A881A8AA258DC3B000C84C0C /* EpiciosTest.xcdatamodeld in Sources */,
+				A881A8A4258DC3B000C84C0C /* ViewController.swift in Sources */,
+				A881A8A0258DC3B000C84C0C /* AppDelegate.swift in Sources */,
+				A881A8A2258DC3B000C84C0C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A881A8A5258DC3B000C84C0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A881A8A6258DC3B000C84C0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A881A8AD258DC3B200C84C0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A881A8AE258DC3B200C84C0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A881A8B1258DC3B200C84C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A881A8B2258DC3B200C84C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A881A8B4258DC3B200C84C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EpiciosTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sourabh.EpiciosTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A881A8B5258DC3B200C84C0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EpiciosTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sourabh.EpiciosTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A881A897258DC3B000C84C0C /* Build configuration list for PBXProject "EpiciosTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A881A8B1258DC3B200C84C0C /* Debug */,
+				A881A8B2258DC3B200C84C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A881A8B3258DC3B200C84C0C /* Build configuration list for PBXNativeTarget "EpiciosTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A881A8B4258DC3B200C84C0C /* Debug */,
+				A881A8B5258DC3B200C84C0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A881A8A8258DC3B000C84C0C /* EpiciosTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A881A8A9258DC3B000C84C0C /* EpiciosTest.xcdatamodel */,
+			);
+			currentVersion = A881A8A9258DC3B000C84C0C /* EpiciosTest.xcdatamodel */;
+			path = EpiciosTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A881A894258DC3B000C84C0C /* Project object */;
+}
